@@ -31,20 +31,24 @@
 	</header>
 
     <main>
-        <div class="container">
-            <div><!--For the header area-->
-                <div>
-                    <h1>Vela Mobile App</h1>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <picture>
-                      <source srcset="img/vela_casestudy/vela_logo.svg" media="(max-width:767px)">
-                      <img src="img/vela_casestudy/vela_logo.svg" alt="My Image">
-                    </picture>
-                    <div>
-                        <p>Creating a weather forecasting app with water enthusiasts in mind.</p>
+      <div class="container">
+                  <div class="row"><!-- open row that holds (2) columns for project -->
+                    <div class="col-md-6"><!-- open first column (used for image) -->
+                      <picture><!--For students, the images below should be updated with real images-->
+                        <source srcset="img/vela_casestudy/vela_logo.svg" media="(max-width:767px)">
+                        <img src="img/vela_casestudy/vela_logo.svg" alt="My Image">
+                      </picture>
+                    </div><!-- end first column -->
+                    <div class="col-md-6"><!-- open second column (used for text) -->
+                      <h3>Vela Mobile App</h3><!-- heading for the project -->
+                      <p><!-- open paragraph -->
+                        Creating a weather forecasting app with water enthusiasts in mind
+                      </p><!-- end paragraph -->
+                      <p><!-- open paragraph -->
+                        Market research and the design process
+                      </p><!-- end paragraph -->
+                    </div><!-- end second column -->
+                  </div><!-- end row that holds (2) columns for project --> 
                         <div>
                             <div>
                                 <h2>My Process</h2>
@@ -60,7 +64,7 @@
                     </div>
                 </div>
                 
-                <div>
+                <div class="container">
                     <picture>
                       <source srcset="img/vela_casestudy/Persona.svg" media="(max-width:767px)">
                       <img src="img/vela_casestudy/Persona.svg" alt="My Image">
@@ -71,11 +75,12 @@
                     </div>
                 </div>
                 
-                <div>
+                <div class="container">
                     <picture>
                       <source srcset="img/vela_casestudy/journey_map.svg" media="(max-width:767px)">
                       <img src="img/vela_casestudy/journey_map.svg" alt="My Image">
                     </picture>
+
                     <div>
                       <h3>Wireframing and User Testing</h3>
                       <ul>
@@ -86,7 +91,7 @@
                     </div>
                 </div>
                 
-                 <div>
+                 <div class="container">
                     <picture>
                       <source srcset="img/vela_casestudy/lo-fi_wf.svg" media="(max-width:767px)">
                       <img src="img/vela_casestudy/lo-fi_wf.svg" alt="My Image">
@@ -95,38 +100,39 @@
                       <h3>Mid-Fidelity Designs and Reiterations</h3>
                       <p>Testing initial wireframes led to reiterations due to some consistent user friction points, accessibility standards not being met, and preference testing.</p>
                     </div>
-                    <div class="row"><!--will be two columns of images-->
+                    <div class="column col-md-6"><!--will be two columns of images-->
                         <picture>
                           <source srcset="img/vela_casestudy/mid-fi_1.svg" media="(max-width:767px)">
                           <img src="img/vela_casestudy/mid-fi_1.svg" alt="My Image">
                         </picture>
                     </div>
-                    <div>
+                    <div class="column col-md-6">
                         <picture>
                           <source srcset="img/vela_casestudy/mid-fi_2.svg" media="(max-width:767px)">
                           <img src="img/vela_casestudy/mid-fi_2.svg" alt="My Image">
                         </picture>
                     </div>
                 </div>
-                
-                <div>
-                    <div>
+
+                <div class="container">
                       <h3>Prototype of Final Product</h3>
                       <p>Further user testing and collaboritive efforts with my classmates led to the final, clickable prototype.</p>
+                  <div>
                     <picture>
                       <source srcset="img/vela_casestudy/hi-fi_gif.png" media="(max-width:767px)">
-                      <img src="img/vela_casestudy/hi-fi_gif.png" alt="My Image">
+                      <img src="img/vela_casestudy/hi-fi_gif.png" class=logo alt="My Image">
                     </picture>
-                    </div>
+                  </div>
                 </div>
                 
-                <div>
+                <div class="container">
                   <h3>Conclusion</h3>
                   <p>By thoroughly researching the problem I was able to create a product that users could use to quickly check complex information. All without users needing extensive prior knowledge on reading detailed weather charts. Users can interpret the weather forecast implications for a day out on the water.</p>
                 </div>
                 
             </div>
         </div>
+      </div>
 </main>
       
 <!-- For the footer  -->
@@ -142,7 +148,7 @@
             <!--Social Media Layout and Placeholders-->
                 <li>
                     <a href="https://www.linkedin.com/in/katelynmartinux/" target="_blank">
-                        <img src="http://via.placeholder.com/32x32" alt="LinkedIn">
+                        <img src="img/portfolio_images/Linkedin.svg" alt="LinkedIn">
                     </a>
                 </li>
             </ul>
@@ -150,5 +156,6 @@
         </div>
         
 	</footer>
+           <script src="js/scripts.js"></script>
   </body>
 </html>
