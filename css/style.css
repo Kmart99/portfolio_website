@@ -343,7 +343,7 @@ Large devices (1024px or larger)
   }
   .col-lg-8 {
     width: 40%;
-    float: right;
+    /* float: right; This was making Skills and Tools appear to the right of About Me*/ 
   }
     
    #about-page .col-md-6 {
