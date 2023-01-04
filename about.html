@@ -1,116 +1,183 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">    
-    <head>
-        <script src="https://kit.fontawesome.com/4d2754dc92.js" crossorigin="anonymous"></script>
+<html lang="en" dir="ltr">
+  <head>
+    <script
+      src="https://kit.fontawesome.com/4d2754dc92.js"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="utf-8">
-    <meta name="author" content="Katelyn Martin">
+    <meta name="author" content="Katelyn Martin" >
     <meta name="description" content="Sample meta description - about page.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="img/favicon.png" rel="shortcut icon">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-      
-    <link href='https://fonts.googleapis.com/css?family=Jost' rel='stylesheet'>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Jost"
+      rel="stylesheet">
     <title>Katelyn Martin's Portfolio</title>
   </head>
   <body id="about_page">
     <!-- For the header -->
-	<header>
-		<!-- For the navigation -->
-		<div class="container">
-      <div class="navtoggle" id="myNavtoggle">
-            <a href="index.html">
-			 <img src="img/portfolio_images/index_logo.svg" class="logo" alt="Logo" >
-            </a>
-            <nav>
-              <ul class="navigation">
-                <li><a href="index.html">Work</a></li>
-                <li class="active"><a href="about.html">About</a></li>
-                <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
-                <li><a href="javascript:void(0);" class="icon" onclick="menuToggle()"><i class="fas fa-bars"></i></a></li>
-              </ul>
-            </nav>
-      </div>
-		</div>
-	</header>
-      
-    <main>
-        <!--For the hero section-->
-        <div id="hero" style="margin-bottom: 40px;">
-            <div class="container">
-                <h1>About Me</h1>
-            </div>
-        </div>
-        <div class="container">
-            <!-- <div>for the image, My Story, and Skills and Tools -->
-                <!-- <div> -->
-                    <picture><!--For students, the images below should be updated with real images-->
-                      <source srcset="img/portfolio_images/about_logo.png" media="(max-width:767px)">
-                      <img src="img/portfolio_images/about_logo.png" class="logo" alt="My Image">
-                    </picture>
-                    <div><!-- For My Story and Skills and tools sections -->
-                        <div class="column col-lg-7"><!--Column one-->
-                            <h3>I'm Katelyn Martin, a UX Designer based in Colorado Springs.</h3>
-                            <p>I got my start in the fitness industry, and working with various applications gave me the drive to improve them.</p>
-                            <p>Thoughtful design means a better professional experience, maximization of revenue, and most important - happy members and clients!</p>
-                            <p>When I'm not designing, you'll find me outside hiking, camping, or climbing. I'm also a dedicated plant and cat caretaker who dabbles in piano.</p>
-                            <div class="center"><a href="files/resume-compressed.pdf" class="button contact" target="_blank">Download My Resume</a></div>
-                        </div>
-                        <div class="column col-lg-8"><!--Column two-->
-                            <h2>Skills &amp; Tools</h2>
-                            <div class="column col-md-6"><!--Column two, row one-->
-                                <h3>Relevant Skills</h3>
-                                <ul>
-                                    <li>Research &amp; Analytics</li>
-                                    <li>User research and user testing</li>
-                                    <li>Interpersonal &amp; Collaborative Communication</li>
-                                    <li>Wireframing &amp; Prototyping</li>
-                                    <li>Interaction design &amp; animation</li>
-                                    <li>Visual Communication and UI</li>
-                                </ul>
-                            </div>
-                            <div class="col-md-6"><!--Column two, row two-->
-                                <h3>Tools I use</h3>
-                                <ul>
-                                    <li>Figma</li>
-                                    <li>Adobe XD</li>
-                                    <li>Miro Board</li>
-                                    <li>Usability Hub</li>
-                                    <li>User Interviews</li>
-                                    <li>HTML, CSS and JavaScript</li>
-                                    <li>Confluence &amp; Jira</li>
-                                    <li>Salesforce</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                <!-- </div> -->
-            <!-- </div> -->
-        </div>
-    </main>
-      
- <!-- For the footer  -->
-	<footer id="contact" style="clear: both;">
-		<div class="container">
-            <h2>Get in touch</h2>
-            <p>If you're interested in working together to tap into your users' delight and product's full potential, please reach out.</p> 
-            <p>Prefer sending an email?</p>
-            <div>
-                <a href="mailto:katelyn801@gmail.com" class="button contact">Send Me an Email</a>
-            </div>
-            <ul class="social">
-            <!--Social Media Layout and Placeholders-->
-                <li>
-                    <a href="https://www.linkedin.com/in/katelynmartinux/" target="_blank">
-                        <img src="img/portfolio_images/Linkedin.svg" alt="LinkedIn">
-                    </a>
-                </li>
+    <header>
+      <!-- For the navigation -->
+      <div class="container">
+        <div class="navtoggle" id="myNavtoggle">
+          <a href="index.html">
+            <img
+              src="img/portfolio_images/index_logo.svg"
+              class="logo"
+              alt="Logo"
+            >
+          </a>
+          <nav>
+            <ul class="navigation">
+              <li><a href="index.html">Work</a></li>
+              <li class="active"><a href="about.html">About</a></li>
+              <li><a href="#contact" onclick="menuToggle()">Contact</a></li>
+              <li>
+                <a
+                  href="javascript:void(0);"
+                  class="icon"
+                  onclick="menuToggle()"
+                  ><i class="fas fa-bars"></i
+                ></a>
+              </li>
             </ul>
-            <p>Copyright Katelyn Martin 2022</p>
+          </nav>
         </div>
-        
-	</footer>
-                <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-                <script src="js/scripts.js"></script>
+      </div>
+    </header>
+
+    <main>
+      <!--For the hero section-->
+      <div id="hero">
+        <div class="container">
+          <h1>About Me</h1>
+        </div>
+      </div>
+      <div class="container">
+        <!-- <div>for the image, My Story, and Skills and Tools -->
+        <!-- <div> -->
+        <div>
+         <div class="about-header">
+          <picture>
+            <!--For students, the images below should be updated with real images-->
+            <source
+              srcset="img/portfolio_images/about_logo.png"
+              media="(max-width:767px)"
+            >
+            <img
+              src="img/portfolio_images/about_logo.png"
+              class="logo"
+              alt="My Image"
+            >
+          </picture>
+          <div>
+            <!-- For My Story and Skills and tools sections -->
+            <div class="column col-lg-7">
+              <!--Column one-->
+              <h3>
+                I'm Katelyn Martin, a UX Designer based in Colorado Springs.
+              </h3>
+              <p>
+                I got my start in the fitness industry, and working with various
+                applications gave me the drive to improve them.
+              </p>
+              <p>
+                Thoughtful design means a better professional experience,
+                maximization of revenue, and most important - happy members and
+                clients!
+              </p>
+              <p>
+                When I'm not designing, you'll find me outside hiking, camping, or
+                climbing. I'm also a dedicated plant and cat caretaker who dabbles
+                in piano.
+              </p>
+              <div class="center">
+                <a
+                  href="files/resume-compressed.pdf"
+                  class="button contact"
+                  target="_blank"
+                  >Download My Resume</a
+                >
+              </div>
+         </div>
+          </div>
+        </div>
+          <div class="column col-lg-8">
+            <!--Column two-->
+            <h2 class="tools">Skills &amp; Tools</h2>
+            <div class="column col-md-6">
+              <!--Column two, row one-->
+              <h3 class="skills">Relevant Skills</h3>
+              <ul>
+                <li>Research &amp; Analytics</li>
+                <li>User research and user testing</li>
+                <li>Interpersonal &amp; Collaborative Communication</li>
+                <li>Wireframing &amp; Prototyping</li>
+                <li>Interaction design &amp; animation</li>
+                <li>Visual Communication and UI</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <!--Column two, row two-->
+              <h3 class="skills">Tools I use</h3>
+              <ul>
+                <li>Figma</li>
+                <li>Adobe XD</li>
+                <li>Miro Board</li>
+                <li>Usability Hub</li>
+                <li>User Interviews</li>
+                <li>HTML, CSS and JavaScript</li>
+                <li>Confluence &amp; Jira</li>
+                <li>Salesforce</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </main>
+
+    <!-- For the footer  -->
+    <footer id="contact" style="clear: both">
+      <div class="container">
+        <h2>Get in touch</h2>
+        <p>
+          If you're interested in working together to tap into your users'
+          delight and product's full potential, please reach out.
+        </p>
+        <p>Prefer sending an email?</p>
+        <div>
+          <a href="mailto:katelyn801@gmail.com" class="button contact"
+            >Send Me an Email</a
+          >
+        </div>
+        <ul class="social">
+          <!--Social Media Layout and Placeholders-->
+          <li>
+            <a
+              href="https://www.linkedin.com/in/katelynmartinux/"
+              target="_blank"
+            >
+              <img src="img/portfolio_images/Linkedin.svg" alt="LinkedIn">
+            </a>
+          </li>
+        </ul>
+        <p>Copyright Katelyn Martin 2022</p>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
