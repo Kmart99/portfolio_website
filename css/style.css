@@ -10,7 +10,7 @@
 /*default body settings*/
 
 body {
-  background-color: #FFFAF2;
+  background-color: #F4FAFF;
   font-family: 'Jost';
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 300; /* Sets the font weight to 300 */
@@ -136,10 +136,10 @@ a:focus {
 
 /*style the <header> element*/
 header {
-  background-color: #ffe4c4;
+  background-color: #F4FAFF;
   padding: 10px 0 4px;
   position: relative;
-  box-shadow: 0px 7px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 7px 5px 0px #26532B;
 }
 
 /*style the logo*/
@@ -149,7 +149,7 @@ header .logo {
   margin-bottom: 10px;
 }
 main .logo {
-  max-width: 200px;
+  max-width: 600px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -198,7 +198,6 @@ nav > ul {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid #26532B;
 }
 
 .navtoggle.responsive li:last-child  {
@@ -208,15 +207,15 @@ nav > ul {
 nav > ul > li > a {
   padding: 0 15px;
   text-transform: uppercase;
-  font-weight: 700;
   color: #6C6F7F;
 }
 
 #hero {
-  background-color: #ffe4c4;
-  padding: 40px 0;
+  background-color: #F4FAFF;
+  padding-top: 40px;
   display: inline-block;
   width: 100%;
+  
 }
 
 #hero span {
@@ -226,6 +225,20 @@ nav > ul > li > a {
 #contact {
     background-color: #f2f2f2;
     padding: 20px;
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tools {
+  margin-bottom: 0;
+}
+
+.skills {
+  margin-top: 0.125rem;
 }
 
 /*Style the social icons*/
@@ -275,6 +288,10 @@ nav > ul > li > a {
   padding: 10px;
 }
 
+.align {
+  margin-left: 20px;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
@@ -311,6 +328,10 @@ Medium devices (640px and larger)
     margin: 1em 0;
   }
 
+  .col-md-6 h3 {
+    margin-left: 20px;
+  }
+
   .col-md-6 {
     width: 50%;
     float: left;
@@ -329,21 +350,21 @@ Large devices (1024px or larger)
     margin-right: auto;
   }
   .col-lg-7 {
-    width: 60%;
+    /* width: 60%; */
   }
 
   .col-lg-5 {
     width: 40%;
   }
     
-  .col-lg-7 {
+  /* .col-lg-7 {
     width: 60%;
     float: left;
     padding-bottom: 40px;
-  }
+  } */
   .col-lg-8 {
-    width: 40%;
-    /* float: right; This was making Skills and Tools appear to the right of About Me*/ 
+    /* width: 40%;
+    float: right; */
   }
     
    #about-page .col-md-6 {
